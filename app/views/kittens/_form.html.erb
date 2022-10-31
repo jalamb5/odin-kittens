@@ -12,6 +12,14 @@
   <% end %>
 
   <div>
+    <%= form.label :name, 'Name: ' %>
+    <%= form.text_field :name %>
+    <%= form.label :age, 'Age: ' %>
+    <%= form.number_field :age %>
+    <%= form.label :cuteness, 'Cuteness: ' %>
+    <%= form.range_field :cuteness, in: 1..5 %>
+    <%= form.label :softness, 'Softness: ' %>
+    <%= form.range_field :softness, in: 1..5 %>
     <%= form.submit %>
   </div>
 <% end %>
