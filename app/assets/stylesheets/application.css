@@ -17,3 +17,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.kitten {
+  border: solid;
+  padding: 5px;
+}
