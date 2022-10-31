@@ -13,9 +13,15 @@
  *= require_tree .
  *= require_self
  */
-body {
-  display: flex;
-  flex-direction: column;
+body, a {
+  color: #2ec15f;
+  background-color: #5c1026;
+}
+
+#kittens {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
 }
 
 .kitten {
